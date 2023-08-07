@@ -14,6 +14,7 @@ const download = require("download-git-repo");
 // 引入可以下载的模板
 const tempObj = require(`${__dirname}/../templates.json`);
 const fs = require('fs');
+// 如果是自己添加的本地模板；需要复制文件到当前文件夹
 const ncp = require('ncp');
 
 program.parse(process.argv);
