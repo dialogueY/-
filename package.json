@@ -1,0 +1,23 @@
+{
+  "name": "hss-cli",
+  "version": "1.0.0",
+  "description": "第一个脚手架",
+  "main": "index.js",
+  "bin": {
+    "hss": "bin/hss.js",
+    "hss-init": "bin/hss-init.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sasa",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^11.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.0.0",
+    "ncp": "^2.0.0",
+    "ora": "^4.0.1"
+  }
+}
