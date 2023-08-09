@@ -5,14 +5,17 @@
   "main": "index.js",
   "bin": {
     "hss": "bin/hss.js",
-    "hss-init": "bin/hss-init.js"
+    "hss-init": "bin/hss-init.js",
+    "hss-add": "bin/hss-add.js",
+    "hss-delete": "bin/hss-delete.js",
+    "hss-list": "bin/hss-list.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sasa",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^4.0.0",
     "commander": "^11.0.0",
     "download-git-repo": "^3.0.2",
